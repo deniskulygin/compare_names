@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/",
+      "FileHandler\\": "FileHandler/",
+      "DirectoryHandler\\": "DirectoryHandler/",
+      "Logger\\": "Logger/",
+      "CompareService\\": "CompareService/"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^3.3"
+  }
+}
